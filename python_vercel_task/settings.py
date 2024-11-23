@@ -80,8 +80,8 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': config('User_env'),
         'PASSWORD': config('SUPABASE_PASSWORD_env'),
-        'HOST': config('host_env'),
-        'PORT': config('Port_env'),
+        'HOST': 'aws-0-us-west-1.pooler.supabase.com',
+        'PORT': 6543,
     }
 }
 
